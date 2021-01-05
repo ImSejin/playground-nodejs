@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Github green square capturer
+screenshots/
+
+# JetBrains Webstorm
+.idea/
