@@ -1,11 +1,13 @@
 {
-  "name": "github-green-square-capturer",
+  "name": "playground-nodejs",
   "version": "0.1.0",
   "scripts": {
     "start": "node ./App.js"
   },
   "dependencies": {
+    "canvas": "^2.6.1",
     "dayjs": "^1.10.1",
+    "node-pre-gyp": "^0.17.0",
     "puppeteer": "^5.5.0"
   }
 }
