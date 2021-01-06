@@ -1,5 +1,4 @@
 const {parseArguments} = require('./ArgsParser');
-const calendar = require('./lib/CalendarGenerator');
 
 const arguments = parseArguments(process.argv);
 if ((arguments.type || arguments.t) === 'screenshot') {
@@ -11,4 +10,5 @@ if ((arguments.type || arguments.t) === 'categorization') {
     categorize(arguments.path || arguments.p);
 }
 
-(async () => await calendar.generate(550, 340))();
+const calendar = require('./lib/CalendarGenerator');
+// (async () => await calendar.generate(550, 340))();
