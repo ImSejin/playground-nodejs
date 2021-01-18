@@ -19,8 +19,8 @@ switch (t || type) {
     break;
 
   case 'webtoon':
-    const {renameNaver} = require('./lib/renameWebtoons');
-    renameNaver(path || p);
+    const {rename} = require('./lib/WebtoonRenamer');
+    rename(path || p);
     break;
 
   default:
